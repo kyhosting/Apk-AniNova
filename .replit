@@ -9,6 +9,7 @@ expertMode = true
 [deployment]
 deploymentTarget = "autoscale"
 run = ["bash", "-c", "PYTHONPATH=/home/runner/workspace/.pythonlibs/lib/python3.13/site-packages:$PYTHONPATH gunicorn --bind=0.0.0.0:5000 --reuse-port --workers=2 main:app"]
+build = ["bash", "-c", "uv pip install --target /home/runner/workspace/.pythonlibs/lib/python3.13/site-packages -r requirements.txt gunicorn"]
 
 [workflows]
 runButton = "Project"
