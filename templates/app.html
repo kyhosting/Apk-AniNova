@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>AniNova</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/fa.all.min.css">
+</head>
+<body class="app-body" id="app-page">
+
+<!-- Page Transition Bar (top-only, no full overlay) -->
+<div id="page-loader" class="page-loader">
+  <div class="loader-bar"></div>
+</div>
+
+<!-- SIDEBAR (desktop) -->
+<aside class="sidebar neon-sidebar">
+  <div class="sidebar-logo">
+    <img src="/static/img/logo.svg" alt="AniNova" class="sidebar-logo-img">
+    <span class="sidebar-logo-text neon-logo">AniNova</span>
+  </div>
+  <div class="sidebar-user">
+    <div class="sidebar-avatar" id="sidebar-avatar"><i class="fa-solid fa-dragon"></i></div>
+    <div class="sidebar-user-info">
+      <div class="sidebar-username" id="sidebar-username">User</div>
+      <div class="sidebar-role" id="sidebar-role"></div>
+    </div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-item" data-link="/app" data-path="/app" onclick="go('/app')">
+      <i class="fa-solid fa-house"></i> Beranda
+    </div>
+    <div class="nav-item" data-link="/app/watchlist" data-path="/app/watchlist" onclick="go('/app/watchlist')">
+      <i class="fa-solid fa-bookmark"></i> Watchlist
+    </div>
+    <div class="nav-item" data-link="/app/profile" data-path="/app/profile" onclick="go('/app/profile')">
+      <i class="fa-solid fa-user"></i> Profil
+    </div>
+    <div class="nav-item hidden admin-only" data-link="/app/admin" data-path="/app/admin" onclick="go('/app/admin')">
+      <i class="fa-solid fa-crown"></i> Admin Panel
+    </div>
+  </nav>
+
+  <div class="sidebar-notif" id="sidebar-notif-btn" onclick="toggleNotifPanel()">
+    <i class="fa-solid fa-bell"></i>
+    <span class="notif-badge hidden" id="notif-badge">0</span>
+    <span class="notif-label">Notifikasi</span>
+  </div>
+
+  <div class="sidebar-footer">
+    <button class="btn btn-danger" style="width:100%" id="btn-sidebar-logout">
+      <i class="fa-solid fa-right-from-bracket"></i> Keluar
+    </button>
+  </div>
+</aside>
+
+<!-- Notification Panel -->
+<div class="notif-panel" id="notif-panel">
+  <div class="notif-panel-header">
+    <span><i class="fa-solid fa-bell" style="color:var(--neon)"></i> Notifikasi</span>
+    <button onclick="clearNotifs()" class="notif-clear-btn"><i class="fa-solid fa-trash"></i> Hapus</button>
+  </div>
+  <div class="notif-panel-body" id="notif-list">
+    <div class="notif-empty"><i class="fa-regular fa-bell-slash"></i><p>Belum ada notifikasi</p></div>
+  </div>
+</div>
+<div class="notif-overlay" id="notif-overlay" onclick="closeNotifPanel()"></div>
+
+<!-- MAIN -->
+<main class="app-main">
+  <div id="main-content">
+    <div class="page-loading"><div class="spinner neon-spinner"></div></div>
+  </div>
+</main>
+
+<!-- BOTTOM NAV (mobile) -->
+<nav class="bottom-nav neon-bottom-nav">
+  <div class="bottom-nav-item nav-item" data-link="/app" data-path="/app" onclick="go('/app')">
+    <i class="fa-solid fa-house"></i>
+    <span class="nav-label">Beranda</span>
+  </div>
+  <div class="bottom-nav-item nav-item" data-link="/app/watchlist" data-path="/app/watchlist" onclick="go('/app/watchlist')">
+    <i class="fa-solid fa-bookmark"></i>
+    <span class="nav-label">Watchlist</span>
+  </div>
+  <div class="bottom-nav-item" onclick="toggleNotifPanel()" style="position:relative">
+    <i class="fa-solid fa-bell"></i>
+    <span class="notif-badge-bottom hidden" id="notif-badge-bottom">0</span>
+    <span class="nav-label">Notif</span>
+  </div>
+  <div class="bottom-nav-item nav-item" data-link="/app/profile" data-path="/app/profile" onclick="go('/app/profile')">
+    <div class="bottomnav-avatar" id="bottomnav-avatar"><i class="fa-solid fa-dragon"></i></div>
+    <span class="nav-label">Profil</span>
+  </div>
+</nav>
+
+<div id="toast-container"></div>
+
+<script src="/static/js/security.js"></script>
+<script src="/static/js/api.js"></script>
+<script src="/static/js/auth.js"></script>
+<script src="/static/js/splash.js"></script>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

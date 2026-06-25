@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AniNova — Tempatnya nonton Donghua & Anime terbaik. Ribuan episode, subtitle Indonesia, streaming gratis.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>AniNova — Nonton Donghua & Anime</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/fa.all.min.css">
+</head>
+<body class="landing-body" id="landing-page">
+
+<!-- Page Transition Overlay -->
+<div id="page-loader" class="page-loader">
+  <div class="loader-bar"></div>
+</div>
+
+<!-- Canvas Background -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- Subtle background orbs only -->
+<div class="float-layer" aria-hidden="true">
+  <div class="float-orb orb1"></div>
+  <div class="float-orb orb2"></div>
+</div>
+
+<!-- Neon Navbar -->
+<nav class="l-nav neon-nav" id="navbar">
+  <a href="/" class="l-nav-logo">
+    <img src="/static/img/logo.svg" alt="" class="nav-logo-img">
+    <span class="neon-logo">AniNova</span>
+  </a>
+  <div class="l-nav-links">
+    <a href="#fitur" class="l-nav-link">Fitur</a>
+    <a href="#populer" class="l-nav-link">Populer</a>
+    <a href="#tentang" class="l-nav-link">Tentang</a>
+    <a href="/login" class="l-nav-link nav-logged-out">Masuk</a>
+    <a href="/register" class="btn btn-primary btn-sm nav-logged-out">Daftar Gratis</a>
+    <a href="/app" class="btn btn-primary btn-sm nav-logged-in hidden">Tonton Sekarang</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#fitur">Fitur</a>
+  <a href="#populer">Populer</a>
+  <a href="#tentang">Tentang</a>
+  <a href="/login">Masuk</a>
+  <a href="/register">Daftar Gratis</a>
+</div>
+
+<!-- ── HERO ──────────────────────────────────────────────────────── -->
+<section class="l-hero">
+  <div class="l-hero-bg"></div>
+  <div class="l-hero-content animate-in">
+    <div class="l-hero-badge">
+      <i class="fa-solid fa-circle-play"></i>
+      Platform Streaming Donghua #1 Indonesia
+    </div>
+    <h1 class="l-hero-title">
+      Nonton Anime &amp;<br><span class="accent glow-text">Donghua Gratis</span>
+    </h1>
+    <p class="l-hero-sub">
+      Ribuan episode dengan subtitle Indonesia — streaming lancar, kapan saja, di mana saja.
+    </p>
+    <div class="l-hero-btns">
+      <a href="/register" class="btn btn-primary btn-neon">
+        <i class="fa-solid fa-play"></i> Mulai Nonton — Gratis
+      </a>
+      <a href="/login" class="btn btn-ghost">
+        <i class="fa-solid fa-right-to-bracket"></i> Masuk
+      </a>
+    </div>
+    <div class="l-hero-stats">
+      <div class="stat-item">
+        <div class="stat-num neon-num" id="stat-anime">500+</div>
+        <div class="stat-lbl">Judul</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <div class="stat-num neon-num" id="stat-ep">10.000+</div>
+        <div class="stat-lbl">Episode</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <div class="stat-num neon-num">Sub ID</div>
+        <div class="stat-lbl">Subtitle</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat-item">
+        <div class="stat-num neon-num">HD</div>
+        <div class="stat-lbl">Kualitas</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── POPULER ───────────────────────────────────────────────────── -->
+<section class="l-popular" id="populer">
+  <div class="l-section-inner">
+    <div class="l-section-head">
+      <div>
+        <h2 class="l-section-title"><i class="fa-solid fa-fire" style="color:#e50914"></i> Populer Saat Ini</h2>
+        <p class="l-section-sub">Daftar untuk mulai menonton tanpa batas</p>
+      </div>
+    </div>
+    <div id="popular-grid">
+      <div class="skeleton-card" style="aspect-ratio:2/3;height:auto"></div>
+      <div class="skeleton-card" style="aspect-ratio:2/3;height:auto"></div>
+      <div class="skeleton-card" style="aspect-ratio:2/3;height:auto"></div>
+      <div class="skeleton-card" style="aspect-ratio:2/3;height:auto"></div>
+      <div class="skeleton-card" style="aspect-ratio:2/3;height:auto"></div>
+      <div class="skeleton-card" style="aspect-ratio:2/3;height:auto"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FITUR ─────────────────────────────────────────────────────── -->
+<section class="l-features" id="fitur">
+  <div class="l-section-inner">
+    <div class="l-section-head" style="text-align:center;display:block">
+      <h2 class="l-section-title">Kenapa Pilih AniNova?</h2>
+      <p class="l-section-sub">Pengalaman streaming yang bersih, cepat, dan lengkap</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-closed-captioning"></i></div>
+        <div class="feature-title">Subtitle Indonesia</div>
+        <div class="feature-desc">Subtitle ID akurat di setiap episode, mudah dibaca.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-rotate"></i></div>
+        <div class="feature-title">Update Cepat</div>
+        <div class="feature-desc">Episode terbaru hadir cepat begitu rilis.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+        <div class="feature-title">Semua Perangkat</div>
+        <div class="feature-desc">Nyaman di HP, tablet, dan laptop.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-bell"></i></div>
+        <div class="feature-title">Notifikasi Real-time</div>
+        <div class="feature-desc">Langsung notif saat episode baru terbit.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-bookmark"></i></div>
+        <div class="feature-title">Watchlist</div>
+        <div class="feature-desc">Simpan anime favorit dan pantau progres.</div>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-tv"></i></div>
+        <div class="feature-title">Kualitas HD</div>
+        <div class="feature-desc">Video jernih dan detail tanpa buffer.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ───────────────────────────────────────────────────────── -->
+<div class="l-cta-banner">
+  <h2>Siap Nonton Tanpa Batas?</h2>
+  <p>Bergabung bersama ribuan penonton AniNova — gratis, cepat, lengkap!</p>
+  <a href="/register" class="btn btn-primary btn-neon">
+    <i class="fa-solid fa-rocket"></i> Mulai Sekarang — Gratis
+  </a>
+</div>
+
+<!-- ── TENTANG ───────────────────────────────────────────────────── -->
+<section class="l-about" id="tentang">
+  <div class="l-section-inner" style="max-width:860px">
+    <div class="about-grid">
+      <div class="about-card">
+        <h3><i class="fa-solid fa-circle-play" style="color:var(--neon)"></i> Apa Itu AniNova?</h3>
+        <p>Platform streaming donghua &amp; anime berbahasa Indonesia. Ribuan judul dari berbagai genre — action, fantasy, romance, cultivation — tersedia gratis dengan subtitle Indonesia berkualitas.</p>
+      </div>
+      <div class="about-card">
+        <h3><i class="fa-solid fa-code" style="color:var(--neon)"></i> Developer</h3>
+        <div class="dev-info">
+          <div class="dev-avatar"><i class="fa-solid fa-laptop-code"></i></div>
+          <div>
+            <div class="dev-name">KIKI FAIZAL</div>
+            <div class="dev-alias">KICEN XENSAI</div>
+            <div style="font-size:.78rem;color:var(--text3);margin-top:4px">Full-Stack Developer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="l-footer">
+  <div class="l-footer-logo">
+    <img src="/static/img/logo.svg" alt="" style="width:28px;height:28px;display:inline-block;vertical-align:middle;margin-right:6px">
+    <span class="neon-logo">AniNova</span>
+  </div>
+  <div>Developer: <strong>KIKI FAIZAL</strong> (KICEN XENSAI)</div>
+  <div style="color:var(--text3);font-size:.8rem">© 2026 AniNova. Hak cipta dilindungi.</div>
+</footer>
+
+<div id="toast-container"></div>
+
+<script src="/static/js/security.js"></script>
+<script src="/static/js/api.js"></script>
+<script src="/static/js/auth.js"></script>
+<script src="/static/js/landing.js"></script>
+<script src="/static/js/splash.js"></script>
+<script>
+document.querySelectorAll('a[href^="/"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    if (!href || href.startsWith('#')) return;
+    e.preventDefault();
+    const loader = document.getElementById('page-loader');
+    if (loader) loader.classList.add('active');
+    setTimeout(() => window.location.href = href, 350);
+  });
+});
+</script>
+</body>
+</html>

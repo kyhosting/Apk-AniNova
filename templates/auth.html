@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>AniNova — Masuk / Daftar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/main.css">
+  <link rel="stylesheet" href="/static/css/fa.all.min.css">
+</head>
+<body class="auth-body" id="auth-page">
+
+<!-- Page Transition -->
+<div id="page-loader" class="page-loader">
+  <div class="loader-bar"></div>
+</div>
+
+<!-- Animated floating shapes background -->
+<div class="auth-bg-shapes" aria-hidden="true">
+  <div class="auth-shape s1"></div>
+  <div class="auth-shape s2"></div>
+  <div class="auth-shape s3"></div>
+  <div class="auth-shape s4"></div>
+  <div class="auth-shape s5"></div>
+  <div class="auth-shape s6"></div>
+</div>
+
+<!-- Floating orbs -->
+<div class="float-layer" aria-hidden="true">
+  <div class="float-orb orb1"></div>
+  <div class="float-orb orb2"></div>
+  <div class="float-orb orb3"></div>
+</div>
+
+<div class="auth-card neon-card">
+  <div class="auth-logo">
+    <a href="/" class="auth-logo-link">
+      <img src="/static/img/logo.svg" alt="" style="width:32px;height:32px">
+      <span class="auth-logo-text neon-logo">AniNova</span>
+    </a>
+  </div>
+
+  <!-- LOGIN -->
+  <div id="section-login">
+    <div class="auth-title">Masuk</div>
+    <div class="auth-sub">Selamat datang kembali!</div>
+
+    <form onsubmit="return false">
+    <div class="form-group">
+      <label class="form-label">Email atau Username</label>
+      <input type="text" id="login-input" class="form-input" placeholder="contoh@email.com atau username" autocomplete="username">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Password</label>
+      <div class="form-input-wrap">
+        <input type="password" id="login-pass" class="form-input" placeholder="Password kamu" autocomplete="current-password">
+        <button class="toggle-pass" type="button" data-toggle-pass="login-pass">
+          <i class="fa-solid fa-eye"></i>
+        </button>
+      </div>
+    </div>
+
+    <p class="form-error hidden" id="err-login"></p>
+    <button class="form-submit btn-neon-submit" id="btn-login" type="submit">
+      <i class="fa-solid fa-right-to-bracket"></i> Masuk
+    </button>
+    </form>
+
+    <div class="auth-switch">
+      Belum punya akun? <a data-mode="register">Daftar gratis</a>
+    </div>
+  </div>
+
+  <!-- REGISTER STEP 1 -->
+  <div id="section-register" class="hidden">
+    <div class="progress-bar">
+      <div class="progress-step done"></div>
+      <div class="progress-step"></div>
+    </div>
+    <div class="auth-title">Buat Akun</div>
+    <div class="auth-sub">Isi data dirimu, lalu verifikasi email.</div>
+
+    <form onsubmit="return false">
+    <div class="form-group">
+      <label class="form-label">Username</label>
+      <input type="text" id="reg-username" class="form-input" placeholder="min. 3 karakter" autocomplete="username">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Email</label>
+      <input type="email" id="reg-email" class="form-input" placeholder="Email aktif kamu" autocomplete="email">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Password</label>
+      <div class="form-input-wrap">
+        <input type="password" id="reg-pass" class="form-input" placeholder="min. 6 karakter" autocomplete="new-password">
+        <button class="toggle-pass" type="button" data-toggle-pass="reg-pass">
+          <i class="fa-solid fa-eye"></i>
+        </button>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Konfirmasi Password</label>
+      <div class="form-input-wrap">
+        <input type="password" id="reg-pass2" class="form-input" placeholder="Ulangi password" autocomplete="new-password">
+        <button class="toggle-pass" type="button" data-toggle-pass="reg-pass2">
+          <i class="fa-solid fa-eye"></i>
+        </button>
+      </div>
+    </div>
+
+    <p class="form-error hidden" id="err-reg"></p>
+    <button class="form-submit btn-neon-submit" id="btn-send-otp" type="submit">
+      <i class="fa-solid fa-envelope"></i> Kirim Kode OTP
+    </button>
+    </form>
+
+    <div class="auth-switch">
+      Sudah punya akun? <a data-mode="login">Masuk</a>
+    </div>
+  </div>
+
+  <!-- REGISTER STEP 2 — OTP -->
+  <div id="section-otp" class="hidden">
+    <div class="progress-bar">
+      <div class="progress-step done"></div>
+      <div class="progress-step done"></div>
+    </div>
+    <div class="auth-title">Verifikasi Email</div>
+    <p class="otp-hint">Masukkan kode 6-digit yang dikirim ke <strong id="otp-email-hint"></strong></p>
+
+    <div class="form-group">
+      <label class="form-label">Kode OTP</label>
+      <input type="text" id="otp-input" class="form-input otp-field" placeholder="000000" maxlength="6" inputmode="numeric" autocomplete="one-time-code">
+    </div>
+
+    <p class="form-error hidden" id="err-otp"></p>
+    <button class="form-submit btn-neon-submit" id="btn-verify-otp">
+      <i class="fa-solid fa-circle-check"></i> Verifikasi &amp; Buat Akun
+    </button>
+    <button class="auth-back" id="btn-back-otp" style="margin-top:12px;display:flex;justify-content:center;width:100%">
+      <i class="fa-solid fa-arrow-left"></i> Kembali
+    </button>
+  </div>
+</div>
+
+<div id="toast-container"></div>
+
+<script src="/static/js/security.js"></script>
+<script src="/static/js/api.js"></script>
+<script src="/static/js/auth.js"></script>
+<script>
+document.querySelectorAll('a[href^="/"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const href = a.getAttribute('href');
+    if (!href) return;
+    e.preventDefault();
+    const loader = document.getElementById('page-loader');
+    if (loader) loader.classList.add('active');
+    setTimeout(() => window.location.href = href, 350);
+  });
+});
+</script>
+</body>
+</html>

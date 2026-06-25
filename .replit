@@ -1,0 +1,39 @@
+modules = ["python-base-3.13"]
+[nix]
+channel = "stable-25_05"
+packages = ["cargo", "libiconv", "rustc"]
+
+[agent]
+expertMode = true
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["bash", "-c", "PYTHONPATH=/home/runner/workspace/.pythonlibs/lib/python3.13/site-packages:$PYTHONPATH gunicorn --bind=0.0.0.0:5000 --reuse-port --workers=2 main:app"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PYTHONPATH=/home/runner/workspace/.pythonlibs/lib/python3.13/site-packages:$PYTHONPATH python3 main.py"
+waitForPort = 5000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
