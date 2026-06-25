@@ -193,7 +193,7 @@ fun AnimeDetailScreen(
                                 .padding(horizontal = 8.dp),
                             colors = ListItemDefaults.colors(containerColor = Background),
                         )
-                        Divider(color = Divider, thickness = 0.5.dp)
+                        HorizontalDivider(color = Divider, thickness = 0.5.dp)
                     }
 
                     item {
@@ -248,7 +248,7 @@ fun AnimeDetailScreen(
                                     modifier = Modifier.padding(horizontal = 8.dp),
                                     colors = ListItemDefaults.colors(containerColor = Background),
                                 )
-                                Divider(color = Divider, thickness = 0.5.dp)
+                                HorizontalDivider(color = Divider, thickness = 0.5.dp)
                             }
                         }
                         else -> {}

@@ -24,6 +24,7 @@ import com.aninova.app.ui.navigation.Screen
 import com.aninova.app.ui.theme.*
 import com.aninova.app.ui.viewmodel.AuthViewModel
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProfileScreen(
     navController: NavController,
