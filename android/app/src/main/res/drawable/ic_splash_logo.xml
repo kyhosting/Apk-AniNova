@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Outer glow ring (low opacity) -->
+    <path
+        android:fillAlpha="0.08"
+        android:pathData="M80,8 A72,72 0 1,1 79.99,8 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="8" android:startY="8"
+                android:endX="152" android:endY="152"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner circle fill (low opacity) -->
+    <path
+        android:fillAlpha="0.15"
+        android:pathData="M80,22 A58,58 0 1,1 79.99,22 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22" android:startY="22"
+                android:endX="138" android:endY="138"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Circle outline stroke -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="2.5"
+        android:strokeAlpha="0.9"
+        android:pathData="M80,22 A58,58 0 1,1 79.99,22 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="22" android:startY="22"
+                android:endX="138" android:endY="138"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Play triangle -->
+    <path
+        android:pathData="M62,52 L62,108 L118,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62" android:startY="52"
+                android:endX="118" android:endY="108"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Wave accent line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.7"
+        android:pathData="M20,130 Q32,122 44,130 Q56,138 68,130 Q80,122 92,130 Q104,138 116,130 Q128,122 140,130">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="20" android:startY="130"
+                android:endX="140" android:endY="130"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- "AniNova" text hint — thin accent bar -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.4"
+        android:fillColor="#00000000"
+        android:pathData="M56,148 L104,148">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="56" android:startY="148"
+                android:endX="104" android:endY="148"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

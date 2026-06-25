@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Play button circle -->
+
+    <!-- Background circle fill (semi-transparent purple) -->
     <path
-        android:fillColor="#9B59B6"
-        android:pathData="M54,20 C35.2,20 20,35.2 20,54 C20,72.8 35.2,88 54,88 C72.8,88 88,72.8 88,54 C88,35.2 72.8,20 54,20Z"/>
+        android:fillAlpha="0.18"
+        android:pathData="M54,10 A44,44 0 1,1 53.99,10 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="10" android:startY="10"
+                android:endX="98" android:endY="98"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Circle outline stroke -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="3"
+        android:strokeAlpha="0.9"
+        android:pathData="M54,10 A44,44 0 1,1 53.99,10 Z">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="10" android:startY="10"
+                android:endX="98" android:endY="98"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
     <!-- Play triangle -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M46,40 L46,68 L72,54 Z"/>
-    <!-- Wave line below -->
+        android:pathData="M42,34 L42,74 L78,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42" android:startY="34"
+                android:endX="78" android:endY="74"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Wave accent line -->
     <path
-        android:strokeColor="#9B59B6"
-        android:strokeWidth="3"
         android:fillColor="#00000000"
-        android:pathData="M20,80 Q27,74 34,80 Q41,86 48,80 Q55,74 62,80 Q69,86 76,80 Q83,74 90,80"/>
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.75"
+        android:pathData="M16,88 Q24,82 32,88 Q40,94 48,88 Q56,82 64,88 Q72,94 80,88 Q88,82 96,88">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="16" android:startY="88"
+                android:endX="96" android:endY="88"
+                android:type="linear">
+                <item android:offset="0" android:color="#a855f7"/>
+                <item android:offset="1" android:color="#6366f1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
 </vector>
