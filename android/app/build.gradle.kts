@@ -20,7 +20,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "BASE_URL", "\"https://kicen-anichi-nzip--xeviermassie83.replit.app/\"")
+        buildConfigField("String", "BASE_URL", "\"https://apk-ani-novazip--ridwanmodesad61.replit.app/\"")
     }
 
     buildTypes {

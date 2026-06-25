@@ -39,9 +39,9 @@ jobs:
         run: |
           BASE_URL="${{ github.event.inputs.base_url }}"
           if [ -z "$BASE_URL" ]; then
-            BASE_URL="https://kicen-anichi-nzip--xeviermassie83.replit.app/"
+            BASE_URL="https://apk-ani-novazip--ridwanmodesad61.replit.app/"
           fi
-          sed -i "s|https://kicen-anichi-nzip--xeviermassie83.replit.app/|$BASE_URL|g" android/app/build.gradle.kts
+          sed -i "s|https://apk-ani-novazip--ridwanmodesad61.replit.app/|$BASE_URL|g" android/app/build.gradle.kts
           echo "Using BASE_URL: $BASE_URL"
 
       - name: Build Debug APK
