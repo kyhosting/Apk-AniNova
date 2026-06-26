@@ -1226,3 +1226,19 @@
 2026-06-26 07:16:51,411  WARNING   api.utils.home        Title div not found in home item
 2026-06-26 07:16:51,411  WARNING   api.utils.home        Title div not found in home item
 2026-06-26 07:16:51,411  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 07:21:50,774  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 07:21:50,775  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 07:21:50,775  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 07:21:51,424  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 07:21:51,425  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 07:21:51,427  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 07:21:51,432  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 07:21:51,438  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:21:51,439  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:21:51,439  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 07:21:52,198  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 07:21:52,204  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:21:52,204  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:21:52,204  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 07:23:45,568  INFO      api                   Initialized Main API handler
+2026-06-26 07:23:45,573  INFO      api.utils.db          SQLite schema initialized
