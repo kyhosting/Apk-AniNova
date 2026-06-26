@@ -597,6 +597,21 @@ def api_remove_watchlist():
     return jsonify({"status": "ok", "message": "Dihapus dari watchlist"}), 200
 
 
+@app.delete("/v1/user/watchlist/<slug>")
+def api_remove_watchlist_by_slug(slug: str):
+    user = get_current_user()
+    if not user:
+        return jsonify({"status": "error", "message": "Login diperlukan"}), 401
+    slug = slug.strip()
+    if not slug:
+        return jsonify({"status": "error", "message": "slug diperlukan"}), 400
+    db_utils.execute_no_return(
+        "DELETE FROM watchlist WHERE user_id = ? AND anime_slug = ?",
+        (user["id"], slug),
+    )
+    return jsonify({"status": "ok", "message": "Dihapus dari watchlist"}), 200
+
+
 # ── USER: HISTORY ───────────────────────────────────────────────────
 @app.get("/v1/user/history")
 def api_get_history():
@@ -1767,6 +1782,73 @@ def delete_comment(comment_id: int):
 
 
 # ── ANIME INFO (catch-all) ───────────────────────────────────────────
+@app.get("/v1/anime/<slug>")
+@limiter.limit("30 per minute")
+def v1_get_anime_detail(slug: Text):
+    """
+    Detail anime by slug (v1)
+    ---
+    tags: [Anime]
+    parameters:
+      - {name: slug, in: path, type: string, required: true}
+    responses:
+      200:
+        description: Detail anime lengkap dengan daftar episode
+      404:
+        description: Anime tidak ditemukan
+    """
+    import re as _re
+    try:
+        cache_key = f"anime_detail:{slug}"
+        cached = cache.get(cache_key)
+        if cached:
+            return success(cached, cache_hit=True)
+        data = main.get_info(slug.strip())
+        result = data.get("result")
+        if result is None:
+            return err_response("Anime tidak ditemukan", 404)
+
+        raw_episodes = result.get("episode", [])
+        episodes = []
+        for ep in (raw_episodes or []):
+            ep_slug = ep.get("slug", "")
+            if not ep_slug:
+                continue
+            episodes.append({
+                "title": ep.get("subtitle") or ep.get("name") or f"Episode {ep.get('episode', '')}",
+                "slug": ep_slug,
+                "episode": ep.get("episode", ""),
+                "url": None,
+            })
+
+        year = None
+        for date_field in ["ditambahkan", "tanggal_rilis", "season"]:
+            val = str(result.get(date_field) or "")
+            m = _re.search(r'\b(20\d{2}|19\d{2})\b', val)
+            if m:
+                year = m.group(1)
+                break
+
+        transformed = {
+            "title": result.get("name", ""),
+            "slug": slug,
+            "thumbnail": result.get("thumbnail", ""),
+            "synopsis": result.get("sinopsis", ""),
+            "rating": result.get("rating"),
+            "status": result.get("status"),
+            "type": result.get("tipe"),
+            "genres": result.get("genre", []),
+            "episodes": episodes,
+            "total_episodes": len(episodes),
+            "year": year,
+            "studio": result.get("studio"),
+        }
+        cache.set(cache_key, transformed, ttl=1800)
+        return success(transformed)
+    except Exception as e:
+        return err_response(str(e), 500)
+
+
 @app.get("/v1/info/<slug>")
 @limiter.limit("30 per minute")
 def v1_get_info(slug: Text):

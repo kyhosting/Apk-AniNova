@@ -1,0 +1,13 @@
+flask
+flask-cors
+flask-compress
+flask-limiter
+flasgger
+requests
+beautifulsoup4
+bs4
+python-dotenv
+PyJWT
+bcrypt
+Werkzeug
+gunicorn

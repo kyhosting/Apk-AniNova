@@ -50,8 +50,13 @@ fun RegisterScreen(
                     step = 2
                     viewModel.resetState()
                 } else {
-                    navController.navigate(Screen.Home.route) {
-                        popUpTo(0) { inclusive = true }
+                    val hasPrevious = navController.previousBackStackEntry != null
+                    if (hasPrevious) {
+                        navController.popBackStack()
+                    } else {
+                        navController.navigate(Screen.Home.route) {
+                            popUpTo(0) { inclusive = true }
+                        }
                     }
                 }
             }

@@ -20,7 +20,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "BASE_URL", "\"https://apk-ani-novazip-1-zip--kikifaizal18.replit.app/\"")
+        buildConfigField("String", "BASE_URL", "\"https://apk-ani-novazip--apkaninova.replit.app/\"")
     }
 
     buildTypes {
@@ -82,6 +82,7 @@ dependencies {
 
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.workmanager.ktx)
 
     debugImplementation(libs.androidx.ui.tooling)
 }
