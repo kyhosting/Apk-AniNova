@@ -26,6 +26,8 @@ class HomeViewModel @Inject constructor(
         loadLatest()
     }
 
+    fun load() = loadHome()
+
     fun loadHome(page: Int = 1) {
         viewModelScope.launch {
             _homeState.value = Result.Loading

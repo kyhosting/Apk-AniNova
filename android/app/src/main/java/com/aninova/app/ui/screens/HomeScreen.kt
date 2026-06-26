@@ -42,8 +42,8 @@ fun HomeScreen(
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Box(
                             modifier = Modifier
-                                .size(32.dp)
-                                .clip(RoundedCornerShape(8.dp))
+                                .size(34.dp)
+                                .clip(RoundedCornerShape(9.dp))
                                 .background(
                                     Brush.linearGradient(listOf(PrimaryVariant, Primary))
                                 ),
@@ -69,11 +69,15 @@ fun HomeScreen(
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Background),
             )
-        }
+        },
     ) { padding ->
         when (val state = homeState) {
-            is Result.Loading -> LoadingIndicator(Modifier.padding(padding))
-            is Result.Error -> ErrorMessage(state.message, Modifier.padding(padding))
+            is Result.Loading -> HomeShimmer(Modifier.padding(padding))
+            is Result.Error -> ErrorMessage(
+                message = state.message,
+                modifier = Modifier.padding(padding),
+                onRetry = { viewModel.load() },
+            )
             is Result.Success -> {
                 LazyColumn(
                     contentPadding = PaddingValues(
@@ -87,7 +91,7 @@ fun HomeScreen(
                             Row(
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .padding(horizontal = 16.dp, vertical = 6.dp),
+                                    .padding(horizontal = 16.dp, vertical = 4.dp),
                                 verticalAlignment = Alignment.CenterVertically,
                                 horizontalArrangement = Arrangement.SpaceBetween,
                             ) {
@@ -101,13 +105,30 @@ fun HomeScreen(
                                     )
                                     Spacer(Modifier.width(8.dp))
                                     Text(
-                                        text = section.section.replace("_", " ")
-                                            .replaceFirstChar { it.uppercase() },
+                                        text = section.section
+                                            .replace("_", " ")
+                                            .split(" ")
+                                            .joinToString(" ") { it.replaceFirstChar { c -> c.uppercase() } },
                                         style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
                                         color = OnBackground,
                                     )
                                 }
+                                if (section.cards.isNotEmpty()) {
+                                    Box(
+                                        modifier = Modifier
+                                            .clip(RoundedCornerShape(8.dp))
+                                            .background(Primary.copy(alpha = 0.1f))
+                                            .padding(horizontal = 8.dp, vertical = 3.dp),
+                                    ) {
+                                        Text(
+                                            "${section.cards.size}",
+                                            style = MaterialTheme.typography.labelSmall,
+                                            color = Primary,
+                                        )
+                                    }
+                                }
                             }
+                            Spacer(Modifier.height(8.dp))
                             LazyRow(
                                 horizontalArrangement = Arrangement.spacedBy(10.dp),
                                 contentPadding = PaddingValues(horizontal = 16.dp),

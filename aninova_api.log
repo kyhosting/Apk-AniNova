@@ -1,0 +1,1198 @@
+2026-06-25 12:51:42,590  INFO      api                   Initialized Main API handler
+2026-06-25 12:51:42,595  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 12:51:43,352  INFO      api                   Initialized Main API handler
+2026-06-25 12:51:43,357  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 12:52:12,849  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:52:12,849  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 12:52:12,849  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 12:52:13,098  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 12:52:13,105  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:52:13,105  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:52:13,106  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 12:52:13,154  INFO      __main__              Notif dibuat untuk episode baru: perfect-world-episode-275-subtitle-indonesia
+2026-06-25 12:52:13,190  INFO      __main__              Notif dibuat untuk episode baru: slay-the-gods-season-2-episode-03-subtitle-indonesia
+2026-06-25 12:52:13,209  INFO      __main__              Notif dibuat untuk episode baru: tomb-of-fallen-gods-season-3-episode-48-subtitle-indonesia
+2026-06-25 12:52:13,232  INFO      __main__              Notif dibuat untuk episode baru: my-senior-brother-is-too-steady-episode-147-subtitle-indonesia
+2026-06-25 12:52:13,253  INFO      __main__              Notif dibuat untuk episode baru: against-the-gods-episode-43-subtitle-indonesia
+2026-06-25 12:52:13,270  INFO      __main__              Notif dibuat untuk episode baru: coiling-dragon-episode-11-subtitle-indonesia
+2026-06-25 12:52:13,289  INFO      __main__              Notif dibuat untuk episode baru: purple-river-season-2-episode-52-tamat-subtitle-indonesia
+2026-06-25 12:52:13,309  INFO      __main__              Notif dibuat untuk episode baru: peerless-battle-spirit-episode-183-subtitle-indonesia
+2026-06-25 12:52:13,327  INFO      __main__              Notif dibuat untuk episode baru: eclipse-of-illusion-special-the-miasma-war-episode-03-subtitle-indonesia
+2026-06-25 12:52:13,347  INFO      __main__              Notif dibuat untuk episode baru: in-search-of-gods-episode-16-subtitle-indonesia
+2026-06-25 12:52:13,363  INFO      __main__              Notif dibuat untuk episode baru: ever-night-episode-10-subtitle-indonesia
+2026-06-25 12:52:13,383  INFO      __main__              Notif dibuat untuk episode baru: above-myriads-episode-05-subtitle-indonesia
+2026-06-25 12:52:13,399  INFO      __main__              Notif dibuat untuk episode baru: shrouding-the-heavens-episode-168-subtitle-indonesia
+2026-06-25 12:52:13,416  INFO      __main__              Notif dibuat untuk episode baru: lingwu-continent-episode-189-subtitle-indonesia
+2026-06-25 12:52:13,432  INFO      __main__              Notif dibuat untuk episode baru: lord-of-the-ancient-god-grave-episode-459-subtitle-indonesia
+2026-06-25 12:52:13,618  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:52:13,618  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 12:52:13,618  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 12:52:13,815  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 12:52:13,821  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:52:13,822  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:52:13,822  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 12:54:25,066  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:54:25,067  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 12:54:25,069  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 12:54:25,250  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 12:54:25,256  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:54:25,256  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:54:25,256  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 12:55:09,074  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:55:09,075  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 12:55:09,075  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 12:55:09,106  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:55:09,106  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 12:55:09,107  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 12:55:09,323  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 12:55:09,329  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:55:09,345  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:55:09,355  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 12:55:09,409  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 12:55:09,416  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:55:09,416  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:55:09,417  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 12:55:13,510  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:55:13,512  INFO      api.utils.video       Initialized Video scraper for slug: perfect-world-episode-275-subtitle-indonesia
+2026-06-25 12:55:13,513  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:55:13,514  INFO      api.utils.video       Starting to fetch video details for slug: perfect-world-episode-275-subtitle-indonesia
+2026-06-25 12:55:13,514  INFO      api.utils.episode     Initialized Episode scraper for slug: perfect-world-episode-275-subtitle-indonesia
+2026-06-25 12:55:13,515  INFO      api.utils.episode     Starting to scrape episode data for slug: perfect-world-episode-275-subtitle-indonesia
+2026-06-25 12:55:13,861  INFO      api.utils.episode     Found 10 video sources
+2026-06-25 12:55:13,869  INFO      api.utils.episode     Found 275 episodes
+2026-06-25 12:55:14,044  INFO      api.utils.episode     Successfully processed 275 episodes
+2026-06-25 12:55:14,046  INFO      api.utils.episode     Successfully scraped episode data for Perfect World
+2026-06-25 12:55:15,857  INFO      api.utils.video       Fetched 6 quality levels from OK.ru
+2026-06-25 12:55:15,859  INFO      api.utils.video       Found 10 servers
+2026-06-25 12:55:16,015  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:55:16,015  INFO      api.utils.episode     Initialized Episode scraper for slug: perfect-world-episode-275-subtitle-indonesia
+2026-06-25 12:55:16,015  INFO      api.utils.episode     Starting to scrape episode data for slug: perfect-world-episode-275-subtitle-indonesia
+2026-06-25 12:55:16,379  INFO      api.utils.episode     Found 10 video sources
+2026-06-25 12:55:16,386  INFO      api.utils.episode     Found 275 episodes
+2026-06-25 12:55:16,403  INFO      api.utils.episode     Successfully processed 275 episodes
+2026-06-25 12:55:16,403  INFO      api.utils.episode     Successfully scraped episode data for Perfect World
+2026-06-25 12:57:13,433  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:57:13,433  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 12:57:13,433  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 12:57:13,626  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 12:57:13,631  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:57:13,631  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:57:13,631  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 12:57:13,841  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 12:57:13,841  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 12:57:13,841  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 12:57:14,063  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 12:57:14,071  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:57:14,071  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 12:57:14,071  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 12:57:44,229  INFO      api.utils.email       OTP email sent to testuser2@gmail.com
+2026-06-25 13:02:13,646  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:02:13,649  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:02:13,649  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:02:14,084  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:02:14,086  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:02:14,087  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:02:14,102  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:02:14,111  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:02:14,112  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:02:14,112  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:02:14,551  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:02:14,557  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:02:14,557  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:02:14,557  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:07:14,129  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:07:14,129  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:07:14,129  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:07:14,343  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:07:14,351  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:07:14,351  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:07:14,351  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:07:14,568  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:07:14,569  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:07:14,569  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:07:14,864  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:07:14,871  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:07:14,872  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:07:14,872  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:31:58,097  INFO      api                   Initialized Main API handler
+2026-06-25 13:31:58,110  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 13:31:59,153  INFO      api                   Initialized Main API handler
+2026-06-25 13:31:59,158  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 13:32:28,380  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:32:28,381  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:32:28,381  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:32:28,721  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:32:28,729  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:32:28,730  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:32:28,730  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:32:29,436  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:32:29,437  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:32:29,437  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:32:29,801  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:32:29,807  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:32:29,816  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:32:29,817  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:32:30,879  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:32:30,880  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:32:30,880  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:32:31,427  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:32:31,435  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:32:31,435  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:32:31,435  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:37:28,869  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:37:28,871  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:37:28,871  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:37:29,306  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:37:29,311  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:37:29,311  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:37:29,311  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:37:29,928  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:37:29,930  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:37:29,930  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:37:30,394  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:37:30,400  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:37:30,400  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:37:30,401  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:42:29,322  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:42:29,324  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:42:29,324  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:42:29,705  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:42:29,711  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:42:29,711  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:42:29,711  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:42:30,408  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:42:30,410  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:42:30,410  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:42:30,630  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:42:30,639  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:42:30,640  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:42:30,640  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:44:16,609  INFO      api                   Initialized Main API handler
+2026-06-25 13:44:16,613  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 13:45:28,925  INFO      api                   Initialized Main API handler
+2026-06-25 13:45:28,930  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 13:45:29,812  INFO      api                   Initialized Main API handler
+2026-06-25 13:45:29,816  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 13:45:59,210  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:45:59,210  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:45:59,210  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:45:59,619  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:45:59,626  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:45:59,627  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:45:59,627  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:46:00,100  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:46:00,100  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:46:00,101  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:46:00,327  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:46:00,338  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:46:00,339  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:46:00,339  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:50:59,638  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:50:59,735  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:50:59,735  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:51:00,224  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:51:00,230  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:51:00,230  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:51:00,230  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 13:51:00,350  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 13:51:00,352  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 13:51:00,352  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 13:51:00,573  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 13:51:00,579  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:51:00,580  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 13:51:00,580  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:01:24,573  INFO      api                   Initialized Main API handler
+2026-06-25 14:01:24,579  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:01:25,332  INFO      api                   Initialized Main API handler
+2026-06-25 14:01:25,337  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:01:54,864  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:01:54,864  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:01:54,865  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:01:55,083  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:01:55,090  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:01:55,091  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:01:55,092  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:01:55,607  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:01:55,607  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:01:55,608  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:01:56,031  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:01:56,038  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:01:56,038  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:01:56,038  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:02:02,941  INFO      api                   Initialized Main API handler
+2026-06-25 14:02:02,949  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:02:03,656  INFO      api                   Initialized Main API handler
+2026-06-25 14:02:03,664  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:02:07,227  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:02:07,245  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:02:07,245  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:02:07,538  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:02:07,559  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:02:07,561  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:02:07,565  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:02:33,219  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:02:33,219  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:02:33,219  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:02:33,654  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:02:33,660  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:02:33,660  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:02:33,660  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:02:33,919  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:02:33,920  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:02:33,921  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:02:34,126  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:02:34,133  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:02:34,134  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:02:34,138  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:07:33,681  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:07:33,683  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:07:33,683  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:07:34,206  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:07:34,206  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:07:34,206  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:07:34,307  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:07:34,312  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:07:34,312  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:07:34,312  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:07:34,422  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:07:34,430  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:07:34,430  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:07:34,430  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:10:20,032  INFO      api                   Initialized Main API handler
+2026-06-25 14:10:20,032  INFO      api                   Initialized Main API handler
+2026-06-25 14:10:20,036  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:10:20,046  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:10:21,057  INFO      api                   Initialized Main API handler
+2026-06-25 14:10:21,061  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:10:50,440  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:10:50,441  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:10:50,441  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:10:50,961  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:10:50,966  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:10:50,966  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:10:50,966  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:10:51,309  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:10:51,310  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:10:51,311  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:10:51,930  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:10:51,937  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:10:51,939  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:10:51,940  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:16:56,978  INFO      api                   Initialized Main API handler
+2026-06-25 14:16:56,988  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:16:57,784  INFO      api                   Initialized Main API handler
+2026-06-25 14:16:57,788  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 14:17:27,276  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:17:27,276  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:17:27,276  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:17:27,733  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:17:27,740  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:17:27,740  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:17:27,740  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:17:28,040  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:17:28,040  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:17:28,040  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:17:28,243  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:17:28,249  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:17:28,249  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:17:28,250  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:22:27,750  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:22:27,750  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:22:27,750  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:22:28,208  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:22:28,214  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:22:28,214  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:22:28,214  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:22:28,258  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:22:28,260  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:22:28,260  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:22:28,959  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:22:28,965  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:22:28,966  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:22:28,966  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:27:28,225  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:27:28,274  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:27:28,274  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:27:28,978  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:27:28,979  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:27:28,979  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:27:29,468  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:27:29,477  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:27:29,478  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:27:29,479  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:27:29,531  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:27:29,567  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:27:29,567  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:27:29,567  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:28:23,808  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:28:23,808  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:28:23,808  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:28:24,015  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:28:24,022  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:28:24,022  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:28:24,023  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:32:29,563  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:32:29,563  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:32:29,564  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:32:29,598  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:32:29,598  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:32:29,599  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:32:29,981  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:32:29,986  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:32:29,987  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:32:29,987  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:32:30,084  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:32:30,089  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:32:30,089  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:32:30,090  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:37:29,994  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:37:29,996  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:37:29,996  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:37:30,104  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:37:30,104  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:37:30,104  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:37:30,303  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:37:30,308  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:37:30,308  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:37:30,308  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:37:30,599  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:37:30,605  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:37:30,605  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:37:30,605  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:42:30,349  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:42:30,349  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:42:30,349  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:42:30,560  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:42:30,565  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:42:30,565  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:42:30,565  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:42:30,621  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:42:30,621  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:42:30,622  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:42:30,885  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:42:30,890  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:42:30,890  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:42:30,891  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:47:30,571  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:47:30,574  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:47:30,574  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:47:30,898  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:47:30,898  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:47:30,898  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:47:31,040  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:47:31,046  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:47:31,046  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:47:31,047  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:47:32,425  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:47:32,431  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:47:32,432  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:47:32,432  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:52:31,162  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:52:31,162  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:52:31,162  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:52:31,391  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:52:31,396  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:52:31,397  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:52:31,397  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 14:52:32,448  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 14:52:32,448  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 14:52:32,448  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 14:52:33,472  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 14:52:33,478  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:52:33,479  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 14:52:33,479  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:00:17,509  INFO      api                   Initialized Main API handler
+2026-06-25 23:00:17,517  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 23:00:18,169  INFO      api                   Initialized Main API handler
+2026-06-25 23:00:18,174  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 23:00:47,764  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:00:47,764  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:00:47,764  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:00:48,407  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:00:48,407  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:00:48,407  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:00:48,476  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:00:48,481  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:00:48,481  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:00:48,481  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:00:49,036  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:00:49,041  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:00:49,042  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:00:49,042  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:05:48,490  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:05:48,490  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:05:48,491  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:05:49,053  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:05:49,053  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:05:49,053  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:05:49,120  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:05:49,125  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:05:49,125  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:05:49,125  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:05:49,680  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:05:49,684  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:05:49,685  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:05:49,685  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:10:49,132  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:10:49,133  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:10:49,133  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:10:49,693  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:10:49,694  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:10:49,694  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:10:49,771  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:10:49,775  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:10:49,775  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:10:49,775  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:10:50,321  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:10:50,327  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:10:50,327  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:10:50,327  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:23:45,081  INFO      api                   Initialized Main API handler
+2026-06-25 23:23:45,085  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 23:23:45,761  INFO      api                   Initialized Main API handler
+2026-06-25 23:23:45,766  INFO      api.utils.db          SQLite schema initialized
+2026-06-25 23:24:15,346  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:24:15,346  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:24:15,346  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:24:16,009  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:24:16,010  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:24:16,010  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:24:16,018  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:24:16,023  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:24:16,023  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:24:16,023  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:24:16,676  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:24:16,681  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:24:16,682  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:24:16,682  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:29:16,031  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:29:16,032  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:29:16,032  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:29:16,663  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:29:16,667  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:29:16,668  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:29:16,668  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-25 23:29:16,692  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-25 23:29:16,693  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-25 23:29:16,693  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-25 23:29:17,605  INFO      api.utils.home        Found 7 sections in home page
+2026-06-25 23:29:17,611  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:29:17,612  WARNING   api.utils.home        Title div not found in home item
+2026-06-25 23:29:17,612  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 00:52:11,537  INFO      api                   Initialized Main API handler
+2026-06-26 00:52:11,540  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 00:52:12,261  INFO      api                   Initialized Main API handler
+2026-06-26 00:52:12,266  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 00:52:41,812  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 00:52:41,812  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 00:52:41,812  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 00:52:42,477  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 00:52:42,482  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:52:42,482  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:52:42,482  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 00:52:42,506  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 00:52:42,506  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 00:52:42,506  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 00:52:43,145  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 00:52:43,150  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:52:43,151  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:52:43,151  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 00:57:42,492  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 00:57:42,492  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 00:57:42,492  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 00:57:43,117  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 00:57:43,121  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:57:43,122  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:57:43,122  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 00:57:43,158  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 00:57:43,159  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 00:57:43,159  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 00:57:43,805  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 00:57:43,811  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:57:43,811  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:57:43,811  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 00:59:20,538  INFO      api                   Initialized Main API handler
+2026-06-26 00:59:20,541  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 00:59:44,599  INFO      api                   Initialized Main API handler
+2026-06-26 00:59:44,606  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 00:59:51,786  INFO      api                   Initialized Main API handler
+2026-06-26 00:59:51,789  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 00:59:52,419  INFO      api                   Initialized Main API handler
+2026-06-26 00:59:52,422  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 00:59:55,427  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 00:59:55,427  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 00:59:55,427  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 00:59:56,097  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 00:59:56,106  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:59:56,106  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 00:59:56,107  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:00:22,029  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:00:22,029  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:00:22,029  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:00:22,656  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:00:22,658  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:00:22,658  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:00:22,700  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:00:22,704  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:00:22,705  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:00:22,705  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:00:23,282  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:00:23,290  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:00:23,290  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:00:23,290  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:01:23,437  INFO      api                   Initialized Main API handler
+2026-06-26 01:01:23,443  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:01:28,931  INFO      api                   Initialized Main API handler
+2026-06-26 01:01:28,934  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:01:29,551  INFO      api                   Initialized Main API handler
+2026-06-26 01:01:29,558  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:01:59,168  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:01:59,168  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:01:59,168  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:01:59,794  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:01:59,794  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:01:59,795  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:01:59,824  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:01:59,829  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:01:59,830  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:01:59,830  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:02:00,432  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:02:00,437  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:02:00,438  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:02:00,438  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:03:16,950  INFO      api                   Initialized Main API handler
+2026-06-26 01:03:16,953  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:06:59,840  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:06:59,841  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:06:59,841  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:07:00,445  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:07:00,445  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:07:00,446  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:07:00,484  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:07:00,488  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:07:00,489  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:07:00,489  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:07:01,074  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:07:01,079  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:07:01,079  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:07:01,079  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:12:00,496  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:12:00,496  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:12:00,496  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:12:01,085  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:12:01,086  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:12:01,086  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:12:01,129  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:12:01,134  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:12:01,134  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:12:01,134  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:12:01,722  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:12:01,727  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:12:01,727  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:12:01,727  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:12:32,111  INFO      api                   Initialized Main API handler
+2026-06-26 01:12:32,116  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:12:54,857  INFO      api                   Initialized Main API handler
+2026-06-26 01:12:54,860  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:12:55,460  INFO      api                   Initialized Main API handler
+2026-06-26 01:12:55,463  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:13:25,096  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:13:25,096  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:13:25,096  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:13:25,700  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:13:25,700  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:13:25,700  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:13:25,750  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:13:25,755  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:13:25,755  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:13:25,755  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:13:26,342  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:13:26,347  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:13:26,347  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:13:26,347  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:16:51,823  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:16:51,824  INFO      api.utils.episode     Initialized Episode scraper for slug: against-the-sky-supreme-episode-218-subtitle-indonesia
+2026-06-26 01:16:51,825  INFO      api.utils.episode     Starting to scrape episode data for slug: against-the-sky-supreme-episode-218-subtitle-indonesia
+2026-06-26 01:16:55,337  INFO      api.utils.episode     Found 7 video sources
+2026-06-26 01:16:55,344  INFO      api.utils.episode     Found 525 episodes
+2026-06-26 01:16:55,382  INFO      api.utils.episode     Successfully processed 525 episodes
+2026-06-26 01:16:55,383  INFO      api.utils.episode     Successfully scraped episode data for Against the Sky Supreme
+2026-06-26 01:17:18,389  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:17:18,389  INFO      api.utils.video       Initialized Video scraper for slug: against-the-sky-supreme-episode-218-subtitle-indonesia
+2026-06-26 01:17:18,389  INFO      api.utils.video       Starting to fetch video details for slug: against-the-sky-supreme-episode-218-subtitle-indonesia
+2026-06-26 01:17:21,199  INFO      api.utils.video       Fetched 6 quality levels from OK.ru
+2026-06-26 01:17:21,200  INFO      api.utils.video       Found 7 servers
+2026-06-26 01:18:25,763  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:18:25,763  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:18:25,763  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:18:26,354  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:18:26,354  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:18:26,354  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:18:26,390  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:18:26,394  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:18:26,395  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:18:26,395  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:18:26,979  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:18:26,984  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:18:26,984  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:18:26,984  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:20:00,522  INFO      api                   Initialized Main API handler
+2026-06-26 01:20:00,524  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 01:23:26,408  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:23:26,412  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:23:26,412  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:23:26,992  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:23:26,993  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:23:26,993  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:23:27,125  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:23:27,130  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:23:27,130  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:23:27,130  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:23:27,686  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:23:27,690  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:23:27,691  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:23:27,691  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:28:27,141  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:28:27,142  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:28:27,142  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:28:27,698  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 01:28:27,698  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 01:28:27,699  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 01:28:27,772  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:28:27,777  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:28:27,777  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:28:27,778  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 01:28:28,314  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 01:28:28,319  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:28:28,319  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 01:28:28,319  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:14:09,758  INFO      api                   Initialized Main API handler
+2026-06-26 02:14:09,762  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 02:14:10,449  INFO      api                   Initialized Main API handler
+2026-06-26 02:14:10,452  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 02:14:40,009  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:14:40,009  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:14:40,009  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:14:40,669  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:14:40,674  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:14:40,674  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:14:40,674  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:14:40,704  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:14:40,705  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:14:40,705  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:14:40,717  INFO      __main__              Notif dibuat untuk episode baru: the-great-ruler-3d-episode-79-subtitle-indonesia
+2026-06-26 02:14:41,349  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:14:41,354  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:14:41,355  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:14:41,355  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:44:44,833  INFO      api                   Initialized Main API handler
+2026-06-26 02:44:44,845  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 02:44:45,512  INFO      api                   Initialized Main API handler
+2026-06-26 02:44:45,516  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 02:45:15,108  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:45:15,108  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:45:15,109  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:45:15,771  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:45:15,778  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:45:15,778  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:45:15,778  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:45:15,790  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:45:15,790  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:45:15,792  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:45:16,436  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:45:16,442  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:45:16,442  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:45:16,442  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:50:15,787  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:50:15,787  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:50:15,787  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:50:16,444  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:50:16,449  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:50:16,449  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:50:16,449  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:50:16,451  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:50:16,455  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:50:16,456  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:50:17,075  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:50:17,082  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:50:17,082  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:50:17,082  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:55:16,457  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:55:16,457  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:55:16,457  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:55:17,093  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 02:55:17,094  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 02:55:17,095  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 02:55:17,131  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:55:17,136  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:55:17,136  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:55:17,136  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 02:55:17,749  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 02:55:17,755  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:55:17,755  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 02:55:17,755  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:31:27,989  INFO      api                   Initialized Main API handler
+2026-06-26 03:31:27,994  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:31:28,632  INFO      api                   Initialized Main API handler
+2026-06-26 03:31:28,635  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:31:58,245  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:31:58,245  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:31:58,245  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:31:58,875  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:31:58,876  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:31:58,877  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:31:58,894  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:31:58,900  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:31:58,900  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:31:58,900  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:31:58,918  INFO      __main__              Notif dibuat untuk episode baru: azure-legacy-episode-83-subtitle-indonesia
+2026-06-26 03:31:59,518  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:31:59,524  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:31:59,524  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:31:59,525  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:35:11,336  INFO      api                   Initialized Main API handler
+2026-06-26 03:35:11,339  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:35:16,512  INFO      api                   Initialized Main API handler
+2026-06-26 03:35:16,515  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:35:17,155  INFO      api                   Initialized Main API handler
+2026-06-26 03:35:17,159  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:35:19,990  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:35:20,011  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:35:20,012  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:35:20,693  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:35:20,701  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:35:20,701  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:35:20,702  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:35:46,758  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:35:46,758  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:35:46,758  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:35:47,402  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:35:47,402  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:35:47,403  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:35:47,419  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:35:47,429  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:35:47,429  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:35:47,430  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:35:48,040  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:35:48,047  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:35:48,047  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:35:48,047  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:40:41,731  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:40:41,732  INFO      api.utils.anime       Initialized Anime scraper
+2026-06-26 03:40:41,732  INFO      api.utils.anime       Fetching anime list
+2026-06-26 03:40:44,528  INFO      api.utils.anime       Successfully processed 30 anime items
+2026-06-26 03:40:47,444  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:40:47,445  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:40:47,445  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:40:48,062  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:40:48,062  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:40:48,062  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:40:48,077  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:40:48,083  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:40:48,083  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:40:48,083  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:40:48,678  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:40:48,685  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:40:48,686  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:40:48,686  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:41:56,673  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:41:56,674  INFO      api.utils.info        Initialized Info scraper for slug: 100-000-years-of-refining-qi
+2026-06-26 03:41:56,675  INFO      api.utils.info        Starting to scrape data for slug: 100-000-years-of-refining-qi
+2026-06-26 03:41:58,422  WARNING   api.utils.info        No paragraphs found in synopsis
+2026-06-26 03:41:58,424  INFO      api.utils.info        Found 351 episodes
+2026-06-26 03:41:58,463  INFO      api.utils.info        Successfully processed 351 episodes
+2026-06-26 03:41:58,463  INFO      api.utils.info        Successfully scraped data for 100.000 Years of Refining Qi
+2026-06-26 03:42:24,708  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:42:24,709  INFO      api.utils.episode     Initialized Episode scraper for slug: 100-000-years-of-refining-qi-episode-351-subtitle-indonesia
+2026-06-26 03:42:24,709  INFO      api.utils.episode     Starting to scrape episode data for slug: 100-000-years-of-refining-qi-episode-351-subtitle-indonesia
+2026-06-26 03:42:26,645  INFO      api.utils.episode     Found 9 video sources
+2026-06-26 03:42:26,652  INFO      api.utils.episode     Found 351 episodes
+2026-06-26 03:42:26,673  INFO      api.utils.episode     Successfully processed 351 episodes
+2026-06-26 03:42:26,674  INFO      api.utils.episode     Successfully scraped episode data for 100.000 Years of Refining Qi
+2026-06-26 03:42:27,172  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:42:27,173  INFO      api.utils.video       Initialized Video scraper for slug: 100-000-years-of-refining-qi-episode-351-subtitle-indonesia
+2026-06-26 03:42:27,174  INFO      api.utils.video       Starting to fetch video details for slug: 100-000-years-of-refining-qi-episode-351-subtitle-indonesia
+2026-06-26 03:42:30,023  INFO      api.utils.video       Fetched 6 quality levels from OK.ru
+2026-06-26 03:42:30,024  INFO      api.utils.video       Found 9 servers
+2026-06-26 03:45:06,847  INFO      api                   Initialized Main API handler
+2026-06-26 03:45:06,852  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:45:37,110  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:45:37,111  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:45:37,111  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:45:37,767  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:45:37,773  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:45:37,774  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:45:37,774  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:45:48,090  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:45:48,090  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:45:48,090  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:45:48,764  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:45:48,769  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:45:48,769  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:45:48,769  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:46:25,319  INFO      api                   Initialized Main API handler
+2026-06-26 03:46:25,321  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:46:25,965  INFO      api                   Initialized Main API handler
+2026-06-26 03:46:25,970  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 03:46:46,713  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:46:46,714  INFO      api.utils.info        Initialized Info scraper for slug: 100-000-years-of-refining-qi
+2026-06-26 03:46:46,714  INFO      api.utils.info        Starting to scrape data for slug: 100-000-years-of-refining-qi
+2026-06-26 03:46:47,721  WARNING   api.utils.info        No paragraphs found in synopsis
+2026-06-26 03:46:47,723  INFO      api.utils.info        Found 351 episodes
+2026-06-26 03:46:47,752  INFO      api.utils.info        Successfully processed 351 episodes
+2026-06-26 03:46:47,753  INFO      api.utils.info        Successfully scraped data for 100.000 Years of Refining Qi
+2026-06-26 03:46:55,567  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:46:55,567  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:46:55,567  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:46:56,211  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:46:56,214  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:46:56,215  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:46:56,216  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:46:56,216  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:46:56,217  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:46:56,217  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:46:56,892  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:46:56,899  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:46:56,899  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:46:56,899  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:51:56,225  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:51:56,226  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:51:56,226  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:51:56,911  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:51:56,912  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:51:56,913  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:51:56,950  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:51:56,956  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:51:56,956  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:51:56,956  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:51:57,536  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:51:57,543  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:51:57,543  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:51:57,544  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:56:56,966  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:56:56,966  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:56:56,966  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:56:57,557  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 03:56:57,558  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 03:56:57,558  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 03:56:57,636  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:56:57,642  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:56:57,642  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:56:57,642  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 03:56:58,181  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 03:56:58,186  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:56:58,187  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 03:56:58,187  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 04:01:57,650  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 04:01:57,769  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 04:01:57,769  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 04:01:58,193  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 04:01:58,193  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 04:01:58,193  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 04:01:58,529  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 04:01:58,535  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:01:58,535  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:01:58,535  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 04:01:58,825  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 04:01:58,831  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:01:58,831  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:01:58,831  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 04:06:58,552  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 04:06:58,553  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 04:06:58,553  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 04:06:58,841  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 04:06:58,841  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 04:06:58,841  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 04:06:59,193  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 04:06:59,199  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:06:59,199  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:06:59,199  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 04:06:59,262  INFO      __main__              Notif dibuat untuk episode baru: against-the-sky-supreme-episode-526-subtitle-indonesia
+2026-06-26 04:06:59,495  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 04:06:59,501  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:06:59,501  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:06:59,501  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 04:11:59,272  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 04:11:59,274  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 04:11:59,274  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 04:11:59,510  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 04:11:59,510  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 04:11:59,510  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 04:12:00,010  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 04:12:00,016  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:12:00,016  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:12:00,016  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 04:12:00,492  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 04:12:00,498  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:12:00,498  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 04:12:00,498  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:40:22,323  INFO      api                   Initialized Main API handler
+2026-06-26 05:40:22,329  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 05:40:23,085  INFO      api                   Initialized Main API handler
+2026-06-26 05:40:23,089  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 05:40:52,589  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:40:52,589  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:40:52,590  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:40:53,258  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:40:53,264  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:40:53,265  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:40:53,265  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:40:53,331  INFO      __main__              Notif dibuat untuk episode baru: supreme-god-emperor-episode-617-subtitle-indonesia
+2026-06-26 05:40:53,344  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:40:53,344  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:40:53,344  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:40:53,981  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:40:53,987  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:40:53,987  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:40:53,987  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:45:53,338  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:45:53,338  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:45:53,338  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:45:53,977  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:45:53,982  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:45:53,982  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:45:53,982  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:45:53,994  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:45:53,994  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:45:53,994  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:45:54,625  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:45:54,630  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:45:54,631  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:45:54,631  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:46:09,718  INFO      api                   Initialized Main API handler
+2026-06-26 05:46:09,723  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 05:46:22,721  INFO      api                   Initialized Main API handler
+2026-06-26 05:46:22,724  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 05:46:23,336  INFO      api                   Initialized Main API handler
+2026-06-26 05:46:23,339  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 05:46:26,703  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:46:26,705  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:46:26,706  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:46:27,348  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:46:27,355  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:46:27,356  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:46:27,356  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:46:52,969  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:46:52,969  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:46:52,969  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:46:53,591  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:46:53,591  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:46:53,592  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:46:53,632  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:46:53,638  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:46:53,638  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:46:53,638  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:46:54,218  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:46:54,223  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:46:54,224  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:46:54,224  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:46:59,017  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:46:59,017  INFO      api.utils.info        Initialized Info scraper for slug: one-piece
+2026-06-26 05:46:59,018  INFO      api.utils.info        Starting to scrape data for slug: one-piece
+2026-06-26 05:47:00,937  ERROR     api.utils.info        Main content section not found
+2026-06-26 05:47:26,633  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:47:26,633  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:47:26,633  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:47:27,293  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:47:27,299  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:47:27,299  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:47:27,299  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:47:33,838  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:47:33,839  INFO      api.utils.info        Initialized Info scraper for slug: the-great-ruler-3d-episode-79-subtitle-indonesia
+2026-06-26 05:47:33,840  INFO      api.utils.info        Starting to scrape data for slug: the-great-ruler-3d-episode-79-subtitle-indonesia
+2026-06-26 05:47:34,760  WARNING   api.utils.info        Anime name element not found
+2026-06-26 05:47:34,764  WARNING   api.utils.info        Synopsis div not found
+2026-06-26 05:47:34,769  WARNING   api.utils.info        Episode list section not found
+2026-06-26 05:47:34,769  INFO      api.utils.info        Successfully scraped data for Unknown Title
+2026-06-26 05:47:56,752  INFO      api.utils.email       OTP email sent to testlogin@test.com
+2026-06-26 05:51:53,647  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:51:53,650  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:51:53,650  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:51:54,232  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:51:54,233  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:51:54,233  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:51:54,527  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:51:54,533  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:51:54,533  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:51:54,533  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:51:54,879  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:51:54,886  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:51:54,886  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:51:54,886  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:56:54,547  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:56:54,548  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:56:54,549  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:56:54,892  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 05:56:54,893  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 05:56:54,893  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 05:56:55,260  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:56:55,266  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:56:55,266  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:56:55,266  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:56:55,595  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 05:56:55,602  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:56:55,602  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 05:56:55,602  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 05:58:45,598  INFO      api                   Initialized Main API handler
+2026-06-26 05:58:45,601  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:01:55,280  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:01:55,282  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:01:55,282  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:01:55,618  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:01:55,618  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:01:55,619  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:01:55,947  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:01:55,952  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:01:55,953  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:01:55,953  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:01:56,252  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:01:56,258  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:01:56,258  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:01:56,258  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:04:50,657  INFO      api                   Initialized Main API handler
+2026-06-26 06:04:50,660  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:06:55,972  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:06:55,972  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:06:55,972  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:06:56,267  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:06:56,267  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:06:56,268  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:06:56,911  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:06:56,915  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:06:56,918  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:06:56,918  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:06:56,918  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:06:56,925  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:06:56,925  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:06:56,925  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:10:27,964  INFO      api                   Initialized Main API handler
+2026-06-26 06:10:27,970  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:11:56,929  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:11:56,929  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:11:56,929  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:11:56,942  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:11:56,942  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:11:56,942  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:11:57,572  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:11:57,578  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:11:57,578  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:11:57,578  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:11:57,587  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:11:57,594  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:11:57,594  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:11:57,594  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:42:34,236  INFO      api                   Initialized Main API handler
+2026-06-26 06:42:34,240  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:42:34,962  INFO      api                   Initialized Main API handler
+2026-06-26 06:42:34,965  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:42:38,652  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:42:38,655  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:42:38,655  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:42:39,378  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:42:39,389  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:42:39,390  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:42:39,390  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:43:04,498  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:43:04,498  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:43:04,498  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:43:05,195  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:43:05,201  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:43:05,202  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:43:05,202  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:43:05,223  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:43:05,223  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:43:05,223  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:43:05,878  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:43:05,887  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:43:05,888  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:43:05,888  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:45:30,443  INFO      api                   Initialized Main API handler
+2026-06-26 06:45:30,448  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:48:05,214  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:48:05,217  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:48:05,217  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:48:05,909  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:48:05,913  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:48:05,914  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:48:06,234  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:48:06,240  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:48:06,240  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:48:06,240  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:48:06,626  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:48:06,632  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:48:06,632  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:48:06,632  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:53:06,262  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:53:06,264  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:53:06,265  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:53:06,640  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:53:06,642  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:53:06,642  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:53:06,965  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:53:06,971  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:53:06,971  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:53:06,971  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:53:07,277  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:53:07,284  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:53:07,284  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:53:07,284  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:55:51,715  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:55:51,717  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:55:51,718  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:55:52,427  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:55:52,435  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:55:52,436  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:55:52,441  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:56:16,837  INFO      api                   Initialized Main API handler
+2026-06-26 06:56:16,845  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:56:17,731  INFO      api                   Initialized Main API handler
+2026-06-26 06:56:17,738  INFO      api.utils.db          SQLite schema initialized
+2026-06-26 06:56:37,238  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:56:37,238  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:56:37,239  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:56:37,983  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:56:37,991  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:56:37,992  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:56:37,993  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:56:47,118  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:56:47,119  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:56:47,119  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:56:47,796  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:56:47,804  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:56:47,804  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:56:47,805  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 06:56:47,991  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 06:56:47,992  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 06:56:47,992  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 06:56:48,648  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 06:56:48,657  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:56:48,657  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 06:56:48,657  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 07:01:47,827  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 07:01:47,830  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 07:01:47,830  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 07:01:48,645  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 07:01:48,652  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:01:48,652  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:01:48,652  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 07:01:48,682  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 07:01:48,682  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 07:01:48,682  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 07:01:49,370  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 07:01:49,377  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:01:49,380  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:01:49,381  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 07:06:48,677  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 07:06:48,677  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 07:06:48,677  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 07:06:49,385  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 07:06:49,390  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:06:49,390  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:06:49,390  INFO      api.utils.home        Successfully processed 6 sections for page 1
+2026-06-26 07:06:49,402  INFO      api.utils.parsing     Initialized Parsing session with URL: https://anichin.moe
+2026-06-26 07:06:49,402  INFO      api.utils.home        Initialized Home scraper for page: 1
+2026-06-26 07:06:49,403  INFO      api.utils.home        Starting to fetch home page for page: 1
+2026-06-26 07:06:50,029  INFO      api.utils.home        Found 7 sections in home page
+2026-06-26 07:06:50,036  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:06:50,038  WARNING   api.utils.home        Title div not found in home item
+2026-06-26 07:06:50,039  INFO      api.utils.home        Successfully processed 6 sections for page 1

@@ -64,18 +64,29 @@ fun LoginScreen(
             .fillMaxSize()
             .background(Background)
     ) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(260.dp)
+                .background(
+                    Brush.verticalGradient(
+                        listOf(Primary.copy(alpha = 0.08f), Color.Transparent)
+                    )
+                )
+        )
+
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .verticalScroll(rememberScrollState())
-                .padding(horizontal = 28.dp),
+                .padding(horizontal = 24.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Spacer(Modifier.height(80.dp))
+            Spacer(Modifier.height(72.dp))
 
             AniNovaLogo()
 
-            Spacer(Modifier.height(12.dp))
+            Spacer(Modifier.height(10.dp))
             Text(
                 "Selamat Datang!",
                 style = MaterialTheme.typography.titleLarge.copy(
@@ -84,13 +95,13 @@ fun LoginScreen(
                 ),
             )
             Text(
-                "Masuk untuk melanjutkan nonton anime",
+                "Masuk untuk lanjut nonton anime",
                 style = MaterialTheme.typography.bodyMedium,
                 color = OnSurfaceVariant,
                 textAlign = TextAlign.Center,
             )
 
-            Spacer(Modifier.height(40.dp))
+            Spacer(Modifier.height(36.dp))
 
             Card(
                 modifier = Modifier.fillMaxWidth(),
@@ -118,7 +129,7 @@ fun LoginScreen(
                         colors = fieldColors(),
                         shape = RoundedCornerShape(12.dp),
                     )
-                    Spacer(Modifier.height(14.dp))
+                    Spacer(Modifier.height(12.dp))
 
                     OutlinedTextField(
                         value = password,
@@ -129,7 +140,8 @@ fun LoginScreen(
                             IconButton(onClick = { passwordVisible = !passwordVisible }) {
                                 Icon(
                                     if (passwordVisible) Icons.Filled.VisibilityOff else Icons.Filled.Visibility,
-                                    null, tint = OnSurfaceVariant,
+                                    null,
+                                    tint = OnSurfaceVariant,
                                 )
                             }
                         },
@@ -145,11 +157,11 @@ fun LoginScreen(
                         val msg = (uiState as? AuthUiState.Error)?.message ?: ""
                         Row(
                             modifier = Modifier
-                                .padding(top = 10.dp)
+                                .padding(top = 12.dp)
                                 .fillMaxWidth()
-                                .clip(RoundedCornerShape(8.dp))
-                                .background(Error.copy(alpha = 0.12f))
-                                .padding(horizontal = 12.dp, vertical = 8.dp),
+                                .clip(RoundedCornerShape(10.dp))
+                                .background(Error.copy(alpha = 0.1f))
+                                .padding(horizontal = 12.dp, vertical = 10.dp),
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
                         ) {
@@ -163,9 +175,11 @@ fun LoginScreen(
                     Button(
                         onClick = { viewModel.login(email, password) },
                         enabled = uiState !is AuthUiState.Loading && email.isNotBlank() && password.isNotBlank(),
-                        modifier = Modifier.fillMaxWidth().height(52.dp),
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(52.dp),
                         colors = ButtonDefaults.buttonColors(containerColor = Primary),
-                        shape = RoundedCornerShape(12.dp),
+                        shape = RoundedCornerShape(14.dp),
                     ) {
                         if (uiState is AuthUiState.Loading) {
                             CircularProgressIndicator(color = OnPrimary, modifier = Modifier.size(22.dp), strokeWidth = 2.5.dp)
@@ -209,8 +223,8 @@ fun LoginScreen(
 fun AniNovaLogo() {
     Box(
         modifier = Modifier
-            .size(90.dp)
-            .clip(RoundedCornerShape(22.dp))
+            .size(94.dp)
+            .clip(RoundedCornerShape(24.dp))
             .background(
                 Brush.linearGradient(
                     colors = listOf(PrimaryVariant, Primary, Color(0xFFFF5252)),
@@ -222,23 +236,24 @@ fun AniNovaLogo() {
             Icons.Filled.PlayCircleFilled,
             contentDescription = null,
             tint = OnPrimary,
-            modifier = Modifier.size(42.dp),
+            modifier = Modifier.size(46.dp),
         )
     }
-    Spacer(Modifier.height(14.dp))
+    Spacer(Modifier.height(16.dp))
     Text(
         "AniNova",
         style = MaterialTheme.typography.displaySmall.copy(
             fontWeight = FontWeight.ExtraBold,
-            letterSpacing = (-1).sp,
+            letterSpacing = (-1.5).sp,
         ),
         color = Primary,
     )
     Text(
-        "Anime & Donghua Platform",
-        style = MaterialTheme.typography.labelMedium.copy(letterSpacing = 2.sp),
+        "ANIME & DONGHUA PLATFORM",
+        style = MaterialTheme.typography.labelSmall.copy(letterSpacing = 2.sp),
         color = OnSurfaceVariant,
     )
+    Spacer(Modifier.height(4.dp))
 }
 
 @Composable

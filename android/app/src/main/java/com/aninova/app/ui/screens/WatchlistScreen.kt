@@ -16,7 +16,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.foundation.layout.Arrangement
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
@@ -39,7 +38,7 @@ fun WatchlistScreen(
         containerColor = Background,
         bottomBar = { BottomNavBar(navController) },
         topBar = {
-            androidx.compose.material3.TopAppBar(
+            TopAppBar(
                 title = {
                     Text(
                         "Daftar Saya",
@@ -47,100 +46,194 @@ fun WatchlistScreen(
                         color = OnBackground,
                     )
                 },
-                colors = androidx.compose.material3.TopAppBarDefaults.topAppBarColors(containerColor = Background),
+                colors = TopAppBarDefaults.topAppBarColors(containerColor = Background),
             )
-        }
+        },
     ) { padding ->
         Column(modifier = Modifier.fillMaxSize().padding(padding)) {
             TabRow(
                 selectedTabIndex = selectedTab,
-                containerColor = Surface,
+                containerColor = Background,
                 contentColor = Primary,
                 divider = { HorizontalDivider(color = Divider) },
+                indicator = { tabPositions ->
+                    if (selectedTab < tabPositions.size) {
+                        TabRowDefaults.SecondaryIndicator(
+                            modifier = Modifier.tabIndicatorOffset(tabPositions[selectedTab]),
+                            color = Primary,
+                        )
+                    }
+                },
             ) {
-                Tab(selected = selectedTab == 0, onClick = { selectedTab = 0 }, selectedContentColor = Primary, unselectedContentColor = OnSurfaceVariant) {
-                    Text("Watchlist", modifier = Modifier.padding(vertical = 14.dp), style = MaterialTheme.typography.bodyMedium.copy(fontWeight = if (selectedTab == 0) FontWeight.Bold else FontWeight.Normal))
+                Tab(
+                    selected = selectedTab == 0,
+                    onClick = { selectedTab = 0 },
+                    selectedContentColor = Primary,
+                    unselectedContentColor = OnSurfaceVariant,
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        modifier = Modifier.padding(vertical = 14.dp),
+                    ) {
+                        Icon(Icons.Filled.Bookmark, null, modifier = Modifier.size(16.dp))
+                        Text(
+                            "Watchlist",
+                            style = MaterialTheme.typography.bodyMedium.copy(
+                                fontWeight = if (selectedTab == 0) FontWeight.Bold else FontWeight.Normal,
+                            ),
+                        )
+                    }
                 }
-                Tab(selected = selectedTab == 1, onClick = { selectedTab = 1 }, selectedContentColor = Primary, unselectedContentColor = OnSurfaceVariant) {
-                    Text("Riwayat", modifier = Modifier.padding(vertical = 14.dp), style = MaterialTheme.typography.bodyMedium.copy(fontWeight = if (selectedTab == 1) FontWeight.Bold else FontWeight.Normal))
+                Tab(
+                    selected = selectedTab == 1,
+                    onClick = { selectedTab = 1 },
+                    selectedContentColor = Primary,
+                    unselectedContentColor = OnSurfaceVariant,
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        modifier = Modifier.padding(vertical = 14.dp),
+                    ) {
+                        Icon(Icons.Filled.History, null, modifier = Modifier.size(16.dp))
+                        Text(
+                            "Riwayat",
+                            style = MaterialTheme.typography.bodyMedium.copy(
+                                fontWeight = if (selectedTab == 1) FontWeight.Bold else FontWeight.Normal,
+                            ),
+                        )
+                    }
                 }
             }
 
             when (selectedTab) {
                 0 -> when (val state = watchlistState) {
                     is Result.Loading -> LoadingIndicator()
-                    is Result.Error -> ErrorMessage(state.message)
+                    is Result.Error -> ErrorMessage(state.message, onRetry = { viewModel.load() })
                     is Result.Success -> {
                         if (state.data.results.isEmpty()) {
-                            Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                                Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                                    Icon(Icons.Filled.BookmarkBorder, null, tint = OnSurfaceVariant, modifier = Modifier.size(64.dp))
-                                    Spacer(Modifier.height(12.dp))
-                                    Text("Watchlist kamu kosong", style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold), color = OnBackground)
-                                    Spacer(Modifier.height(6.dp))
-                                    Text("Tambah anime favorit ke watchlist!", style = MaterialTheme.typography.bodyMedium, color = OnSurfaceVariant)
-                                    Spacer(Modifier.height(20.dp))
-                                    Button(
-                                        onClick = { navController.navigate(Screen.Home.route) },
-                                        colors = ButtonDefaults.buttonColors(containerColor = Primary),
-                                        shape = RoundedCornerShape(10.dp),
-                                    ) {
-                                        Icon(Icons.Filled.Explore, null, modifier = Modifier.size(16.dp))
-                                        Spacer(Modifier.width(6.dp))
-                                        Text("Jelajahi Anime")
-                                    }
-                                }
-                            }
+                            EmptyState(
+                                icon = Icons.Filled.BookmarkBorder,
+                                title = "Watchlist kosong",
+                                subtitle = "Tambah anime favorit ke watchlist!",
+                                actionLabel = "Jelajahi Anime",
+                                onAction = { navController.navigate(Screen.Home.route) },
+                            )
                         } else {
                             LazyColumn(contentPadding = PaddingValues(vertical = 8.dp)) {
                                 items(state.data.results, key = { it.displaySlug }) { item ->
                                     ListItem(
                                         headlineContent = {
-                                            Text(item.title, style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.SemiBold), color = OnBackground, maxLines = 2)
+                                            Text(
+                                                item.title,
+                                                style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.SemiBold),
+                                                color = OnBackground,
+                                                maxLines = 2,
+                                            )
                                         },
                                         supportingContent = {
-                                            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-                                                Icon(Icons.Filled.PlayCircleOutline, null, tint = Primary, modifier = Modifier.size(12.dp))
-                                                Text("Lanjutkan Nonton", style = MaterialTheme.typography.labelSmall, color = Primary)
+                                            Row(
+                                                verticalAlignment = Alignment.CenterVertically,
+                                                horizontalArrangement = Arrangement.spacedBy(4.dp),
+                                                modifier = Modifier.padding(top = 4.dp),
+                                            ) {
+                                                Box(
+                                                    modifier = Modifier
+                                                        .clip(RoundedCornerShape(4.dp))
+                                                        .background(Primary.copy(alpha = 0.12f))
+                                                        .padding(horizontal = 6.dp, vertical = 2.dp),
+                                                ) {
+                                                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(3.dp)) {
+                                                        Icon(Icons.Filled.PlayCircleOutline, null, tint = Primary, modifier = Modifier.size(10.dp))
+                                                        Text("Lanjutkan Nonton", style = MaterialTheme.typography.labelSmall, color = Primary)
+                                                    }
+                                                }
                                             }
                                         },
                                         leadingContent = {
-                                            AsyncImage(
-                                                model = item.thumbnail,
-                                                contentDescription = item.title,
-                                                contentScale = ContentScale.Crop,
+                                            Box(
                                                 modifier = Modifier
-                                                    .size(60.dp, 80.dp)
-                                                    .clip(RoundedCornerShape(8.dp))
+                                                    .size(60.dp, 82.dp)
+                                                    .clip(RoundedCornerShape(10.dp))
                                                     .background(CardBackground),
-                                            )
+                                            ) {
+                                                AsyncImage(
+                                                    model = item.thumbnail,
+                                                    contentDescription = item.title,
+                                                    contentScale = ContentScale.Crop,
+                                                    modifier = Modifier.fillMaxSize(),
+                                                )
+                                            }
                                         },
                                         trailingContent = {
                                             IconButton(onClick = { viewModel.removeFromWatchlist(item.displaySlug) }) {
-                                                Icon(Icons.Filled.Delete, null, tint = Error.copy(alpha = 0.7f), modifier = Modifier.size(20.dp))
+                                                Icon(
+                                                    Icons.Filled.Delete,
+                                                    null,
+                                                    tint = Error.copy(alpha = 0.6f),
+                                                    modifier = Modifier.size(20.dp),
+                                                )
                                             }
                                         },
-                                        modifier = Modifier.clickable {
-                                            navController.navigate(Screen.AnimeDetail.createRoute(item.displaySlug))
-                                        },
+                                        modifier = Modifier
+                                            .clickable {
+                                                navController.navigate(Screen.AnimeDetail.createRoute(item.displaySlug))
+                                            }
+                                            .padding(horizontal = 4.dp),
                                         colors = ListItemDefaults.colors(containerColor = Background),
                                     )
-                                    HorizontalDivider(color = Divider, thickness = 0.5.dp, modifier = Modifier.padding(start = 88.dp))
+                                    HorizontalDivider(color = Divider, thickness = 0.5.dp, modifier = Modifier.padding(start = 84.dp))
                                 }
                             }
                         }
                     }
                 }
                 1 -> {
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Icon(Icons.Filled.History, null, tint = OnSurfaceVariant, modifier = Modifier.size(64.dp))
-                            Spacer(Modifier.height(12.dp))
-                            Text("Riwayat tonton", style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold), color = OnBackground)
-                            Spacer(Modifier.height(6.dp))
-                            Text("Fitur akan segera hadir", style = MaterialTheme.typography.bodyMedium, color = OnSurfaceVariant)
-                        }
-                    }
+                    EmptyState(
+                        icon = Icons.Filled.History,
+                        title = "Riwayat tonton",
+                        subtitle = "Fitur riwayat akan segera hadir!",
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun EmptyState(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    title: String,
+    subtitle: String,
+    actionLabel: String? = null,
+    onAction: (() -> Unit)? = null,
+) {
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(32.dp)) {
+            Box(
+                modifier = Modifier
+                    .size(90.dp)
+                    .clip(RoundedCornerShape(22.dp))
+                    .background(SurfaceVariant),
+                contentAlignment = Alignment.Center,
+            ) {
+                Icon(icon, null, tint = OnSurfaceVariant, modifier = Modifier.size(40.dp))
+            }
+            Spacer(Modifier.height(16.dp))
+            Text(title, style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.SemiBold), color = OnBackground)
+            Spacer(Modifier.height(6.dp))
+            Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = OnSurfaceVariant)
+            if (actionLabel != null && onAction != null) {
+                Spacer(Modifier.height(24.dp))
+                Button(
+                    onClick = onAction,
+                    colors = ButtonDefaults.buttonColors(containerColor = Primary),
+                    shape = RoundedCornerShape(12.dp),
+                ) {
+                    Icon(Icons.Filled.Explore, null, modifier = Modifier.size(16.dp))
+                    Spacer(Modifier.width(8.dp))
+                    Text(actionLabel)
                 }
             }
         }

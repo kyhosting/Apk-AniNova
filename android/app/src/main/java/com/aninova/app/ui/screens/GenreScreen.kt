@@ -10,6 +10,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.capitalize
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -22,7 +23,7 @@ import com.aninova.app.data.model.Result
 import com.aninova.app.data.repository.AnimeRepository
 import com.aninova.app.ui.components.*
 import com.aninova.app.ui.navigation.Screen
-import com.aninova.app.ui.theme.Background
+import com.aninova.app.ui.theme.*
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -39,7 +40,12 @@ class GenreViewModel @Inject constructor(
     val state: StateFlow<Result<AnimeListData>> = _state
 
     init {
+        load()
+    }
+
+    fun load() {
         viewModelScope.launch {
+            _state.value = Result.Loading
             _state.value = repository.getByGenre(slug)
         }
     }
@@ -59,10 +65,20 @@ fun GenreScreen(
         containerColor = Background,
         topBar = {
             TopAppBar(
-                title = { Text(title) },
+                title = {
+                    Text(
+                        title,
+                        style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.Bold),
+                        color = OnBackground,
+                    )
+                },
                 navigationIcon = {
                     IconButton(onClick = { navController.popBackStack() }) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                        Icon(
+                            Icons.AutoMirrored.Filled.ArrowBack,
+                            contentDescription = "Back",
+                            tint = OnBackground,
+                        )
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Background),
@@ -71,23 +87,27 @@ fun GenreScreen(
     ) { padding ->
         when (val s = state) {
             is Result.Loading -> LoadingIndicator(Modifier.padding(padding))
-            is Result.Error -> ErrorMessage(s.message, Modifier.padding(padding))
+            is Result.Error -> ErrorMessage(s.message, Modifier.padding(padding), onRetry = { viewModel.load() })
             is Result.Success -> {
-                LazyVerticalGrid(
-                    columns = GridCells.Fixed(3),
-                    contentPadding = PaddingValues(
-                        start = 12.dp, end = 12.dp,
-                        top = padding.calculateTopPadding() + 8.dp,
-                        bottom = padding.calculateBottomPadding() + 8.dp,
-                    ),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    verticalArrangement = Arrangement.spacedBy(12.dp),
-                ) {
-                    items(s.data.results) { anime ->
-                        AnimeCardGrid(
-                            anime = anime,
-                            onClick = { navController.navigate(Screen.AnimeDetail.createRoute(anime.slug)) },
-                        )
+                if (s.data.results.isEmpty()) {
+                    ErrorMessage("Tidak ada anime untuk genre ini", Modifier.padding(padding))
+                } else {
+                    LazyVerticalGrid(
+                        columns = GridCells.Fixed(3),
+                        contentPadding = PaddingValues(
+                            start = 12.dp, end = 12.dp,
+                            top = padding.calculateTopPadding() + 8.dp,
+                            bottom = padding.calculateBottomPadding() + 8.dp,
+                        ),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalArrangement = Arrangement.spacedBy(12.dp),
+                    ) {
+                        items(s.data.results) { anime ->
+                            AnimeCardGrid(
+                                anime = anime,
+                                onClick = { navController.navigate(Screen.AnimeDetail.createRoute(anime.slug)) },
+                            )
+                        }
                     }
                 }
             }
