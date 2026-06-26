@@ -1829,11 +1829,18 @@ def v1_get_anime_detail(slug: Text):
                 year = m.group(1)
                 break
 
+        sinopsis_raw = result.get("sinopsis", "")
+        if isinstance(sinopsis_raw, dict):
+            paragraphs = sinopsis_raw.get("paragraphs", [])
+            synopsis_text = "\n\n".join(p for p in paragraphs if p)
+        else:
+            synopsis_text = str(sinopsis_raw) if sinopsis_raw else ""
+
         transformed = {
             "title": result.get("name", ""),
             "slug": slug,
             "thumbnail": result.get("thumbnail", ""),
-            "synopsis": result.get("sinopsis", ""),
+            "synopsis": synopsis_text,
             "rating": result.get("rating"),
             "status": result.get("status"),
             "type": result.get("tipe"),
