@@ -81,7 +81,8 @@ class NewEpisodeWorker(
                 val episodes = mutableListOf<Pair<String, String>>()
                 for (i in 0 until results.length()) {
                     val item = results.optJSONObject(i) ?: continue
-                    val slug = item.optString("slug", "").ifBlank { continue }
+                    val slug = item.optString("slug", "")
+                    if (slug.isBlank()) continue
                     val title = item.optString("headline", item.optString("title", "Anime Baru"))
                     episodes.add(Pair(slug, title))
                 }
