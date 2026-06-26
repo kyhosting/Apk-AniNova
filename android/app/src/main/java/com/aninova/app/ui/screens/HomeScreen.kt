@@ -49,7 +49,7 @@ fun HomeScreen(
                                 ),
                             contentAlignment = Alignment.Center,
                         ) {
-                            Icon(Icons.Filled.PlayCircleFilled, null, tint = OnPrimary, modifier = Modifier.size(20.dp))
+                            Icon(Icons.Filled.PlayCircle, null, tint = OnPrimary, modifier = Modifier.size(20.dp))
                         }
                         Spacer(Modifier.width(10.dp))
                         Text(

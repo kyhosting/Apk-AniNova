@@ -165,7 +165,7 @@ fun LoginScreen(
                             verticalAlignment = Alignment.CenterVertically,
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
                         ) {
-                            Icon(Icons.Filled.ErrorOutline, null, tint = Error, modifier = Modifier.size(16.dp))
+                            Icon(Icons.Filled.Error, null, tint = Error, modifier = Modifier.size(16.dp))
                             Text(msg, color = Error, style = MaterialTheme.typography.bodySmall)
                         }
                     }
@@ -233,7 +233,7 @@ fun AniNovaLogo() {
         contentAlignment = Alignment.Center,
     ) {
         Icon(
-            Icons.Filled.PlayCircleFilled,
+            Icons.Filled.PlayCircle,
             contentDescription = null,
             tint = OnPrimary,
             modifier = Modifier.size(46.dp),

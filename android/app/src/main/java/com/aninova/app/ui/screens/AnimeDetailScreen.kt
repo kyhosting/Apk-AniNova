@@ -9,6 +9,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.outlined.*
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -167,7 +168,7 @@ fun AnimeDetailScreen(
                                     contentPadding = PaddingValues(0.dp),
                                 ) {
                                     Icon(
-                                        if (watchlistAdded) Icons.Filled.Bookmark else Icons.Filled.BookmarkBorder,
+                                        if (watchlistAdded) Icons.Filled.Bookmark else Icons.Outlined.BookmarkBorder,
                                         contentDescription = null,
                                         tint = if (watchlistAdded) Primary else OnSurfaceVariant,
                                         modifier = Modifier.size(20.dp),
@@ -180,7 +181,7 @@ fun AnimeDetailScreen(
                                     border = ButtonDefaults.outlinedButtonBorder,
                                 ) {
                                     Icon(
-                                        if (likeState?.liked == true) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
+                                        if (likeState?.liked == true) Icons.Filled.Favorite else Icons.Outlined.FavoriteBorder,
                                         contentDescription = null,
                                         tint = if (likeState?.liked == true) Error else OnSurfaceVariant,
                                         modifier = Modifier.size(18.dp),

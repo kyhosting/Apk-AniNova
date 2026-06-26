@@ -306,7 +306,7 @@ fun EpisodeScreen(
                                         .padding(horizontal = 8.dp, vertical = 3.dp),
                                 ) {
                                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-                                        Icon(Icons.Filled.PlayCircleOutline, null, tint = Primary, modifier = Modifier.size(13.dp))
+                                        Icon(Icons.Filled.PlayCircle, null, tint = Primary, modifier = Modifier.size(13.dp))
                                         Text(
                                             episode.title ?: episode.episode ?: slug,
                                             style = MaterialTheme.typography.labelMedium,
@@ -357,7 +357,7 @@ fun EpisodeScreen(
                                             ) {
                                                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                                                     Icon(
-                                                        if (isSelected) Icons.Filled.PlayArrow else Icons.Filled.PlayCircleOutline,
+                                                        if (isSelected) Icons.Filled.PlayArrow else Icons.Filled.PlayCircle,
                                                         null,
                                                         tint = if (isSelected) OnPrimary else Primary,
                                                         modifier = Modifier.size(14.dp),

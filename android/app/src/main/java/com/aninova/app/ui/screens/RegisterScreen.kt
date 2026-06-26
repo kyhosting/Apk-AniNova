@@ -212,7 +212,7 @@ fun RegisterScreen(
                                     verticalAlignment = Alignment.CenterVertically,
                                     horizontalArrangement = Arrangement.spacedBy(8.dp),
                                 ) {
-                                    Icon(Icons.Filled.ErrorOutline, null, tint = Error, modifier = Modifier.size(16.dp))
+                                    Icon(Icons.Filled.Error, null, tint = Error, modifier = Modifier.size(16.dp))
                                     Text(msg, color = Error, style = MaterialTheme.typography.bodySmall)
                                 }
                             }
@@ -256,7 +256,7 @@ fun RegisterScreen(
                                         .background(Primary.copy(alpha = 0.15f)),
                                     contentAlignment = Alignment.Center,
                                 ) {
-                                    Icon(Icons.Filled.MailOutline, null, tint = Primary, modifier = Modifier.size(18.dp))
+                                    Icon(Icons.Filled.Email, null, tint = Primary, modifier = Modifier.size(18.dp))
                                 }
                                 Column {
                                     Text("Kode dikirim ke:", style = MaterialTheme.typography.labelSmall, color = OnSurfaceVariant)
@@ -291,7 +291,7 @@ fun RegisterScreen(
                                     verticalAlignment = Alignment.CenterVertically,
                                     horizontalArrangement = Arrangement.spacedBy(8.dp),
                                 ) {
-                                    Icon(Icons.Filled.ErrorOutline, null, tint = Error, modifier = Modifier.size(16.dp))
+                                    Icon(Icons.Filled.Error, null, tint = Error, modifier = Modifier.size(16.dp))
                                     Text(msg, color = Error, style = MaterialTheme.typography.bodySmall)
                                 }
                             }

@@ -7,6 +7,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.aninova.app.ui.navigation.Screen
@@ -23,7 +24,7 @@ val bottomNavItems = listOf(
     BottomNavItem("Home", Icons.Outlined.Home, Icons.Filled.Home, Screen.Home.route),
     BottomNavItem("Search", Icons.Outlined.Search, Icons.Filled.Search, Screen.Search.route),
     BottomNavItem("Watchlist", Icons.Outlined.BookmarkBorder, Icons.Filled.Bookmark, Screen.Watchlist.route),
-    BottomNavItem("Profil", Icons.Outlined.PersonOutline, Icons.Filled.Person, Screen.Profile.route),
+    BottomNavItem("Profil", Icons.Outlined.Person, Icons.Filled.Person, Screen.Profile.route),
 )
 
 @Composable

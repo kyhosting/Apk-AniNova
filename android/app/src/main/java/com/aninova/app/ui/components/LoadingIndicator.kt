@@ -56,7 +56,7 @@ fun ErrorMessage(
                     if (message.contains("network", ignoreCase = true) ||
                         message.contains("connect", ignoreCase = true) ||
                         message.contains("timeout", ignoreCase = true))
-                        Icons.Filled.WifiOff else Icons.Filled.ErrorOutline,
+                        Icons.Filled.WifiOff else Icons.Filled.Error,
                     contentDescription = null,
                     tint = Error,
                     modifier = Modifier.size(36.dp),

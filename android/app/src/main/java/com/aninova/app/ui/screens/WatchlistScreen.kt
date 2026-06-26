@@ -8,6 +8,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.outlined.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -56,14 +57,6 @@ fun WatchlistScreen(
                 containerColor = Background,
                 contentColor = Primary,
                 divider = { HorizontalDivider(color = Divider) },
-                indicator = { tabPositions ->
-                    if (selectedTab < tabPositions.size) {
-                        TabRowDefaults.SecondaryIndicator(
-                            modifier = Modifier.tabIndicatorOffset(tabPositions[selectedTab]),
-                            color = Primary,
-                        )
-                    }
-                },
             ) {
                 Tab(
                     selected = selectedTab == 0,
@@ -114,7 +107,7 @@ fun WatchlistScreen(
                     is Result.Success -> {
                         if (state.data.results.isEmpty()) {
                             EmptyState(
-                                icon = Icons.Filled.BookmarkBorder,
+                                icon = Icons.Outlined.BookmarkBorder,
                                 title = "Watchlist kosong",
                                 subtitle = "Tambah anime favorit ke watchlist!",
                                 actionLabel = "Jelajahi Anime",
@@ -145,7 +138,7 @@ fun WatchlistScreen(
                                                         .padding(horizontal = 6.dp, vertical = 2.dp),
                                                 ) {
                                                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(3.dp)) {
-                                                        Icon(Icons.Filled.PlayCircleOutline, null, tint = Primary, modifier = Modifier.size(10.dp))
+                                                        Icon(Icons.Filled.PlayCircle, null, tint = Primary, modifier = Modifier.size(10.dp))
                                                         Text("Lanjutkan Nonton", style = MaterialTheme.typography.labelSmall, color = Primary)
                                                     }
                                                 }
