@@ -425,7 +425,7 @@ def _is_blocked():
 
 @app.before_request
 def block_non_chrome():
-    skip_paths = ('/docs', '/apispec', '/flasgger', '/static', '/robots.txt', '/favicon')
+    skip_paths = ('/docs', '/apispec', '/flasgger', '/static', '/robots.txt', '/favicon', '/v1/')
     if any(request.path.startswith(p) for p in skip_paths):
         return
     if _is_blocked():
@@ -1361,15 +1361,40 @@ def v1_get_episode(slug: Text):
         description: Episode tidak ditemukan
     """
     try:
-        cache_key = f"episode:{slug}"
+        import re as _re
+        cache_key = f"episode_v2:{slug}"
         cached = cache.get(cache_key)
         if cached:
             return success(cached, cache_hit=True)
         data = main.get_episode(slug.strip())
-        if data.get("result") is None and data.get("error"):
+        result = data.get("result")
+        if result is None:
             return err_response("Episode tidak ditemukan", 404)
-        cache.set(cache_key, data, ttl=1800)
-        return success(data)
+
+        ep_match = _re.search(r'episode-(\d+)', slug)
+        ep_num = ep_match.group(1) if ep_match else ""
+        anime_title = result.get("name", "")
+
+        players = []
+        for p in (result.get("players") or []):
+            if isinstance(p, dict) and p.get("name", "") != "Pilih Server Video":
+                players.append({
+                    "server": p.get("name", ""),
+                    "url": p.get("url"),
+                    "slug": slug,
+                })
+
+        transformed = {
+            "title": f"{anime_title} Episode {ep_num}".strip() if ep_num else anime_title,
+            "slug": slug,
+            "anime_slug": result.get("root", ""),
+            "anime_title": anime_title,
+            "episode": ep_num,
+            "players": players,
+            "thumbnail": result.get("thumbnail"),
+        }
+        cache.set(cache_key, transformed, ttl=1800)
+        return success(transformed)
     except Exception as e:
         return err_response(str(e), 500)
 
@@ -1449,15 +1474,40 @@ def v1_get_video(slug: Text):
         description: Video tidak ditemukan
     """
     try:
-        cache_key = f"video:{slug}"
+        cache_key = f"videov2:{slug}"
         cached = cache.get(cache_key)
         if cached:
             return success(cached, cache_hit=True)
-        data = main.get_video_source(slug.strip())
-        if not data:
+        raw = main.get_video_source(slug.strip())
+        if not raw:
             return err_response("Sumber video tidak ditemukan", 404)
-        cache.set(cache_key, data, ttl=300)
-        return success(data)
+
+        servers = raw.get("servers", [])
+        if not servers:
+            return err_response("Tidak ada server video", 404)
+
+        server = next(
+            (s for s in servers if "ok.ru" in (s.get("embed_url") or "")),
+            servers[0],
+        )
+
+        direct_urls = server.get("direct_urls", [])
+        sources = [
+            {"url": d["url"], "quality": d.get("quality", "Auto")}
+            for d in direct_urls if d.get("url")
+        ]
+        best_url = sources[0]["url"] if sources else None
+        embed = server.get("embed_url")
+
+        transformed = {
+            "server": server.get("name", ""),
+            "url": embed,
+            "direct_url": best_url,
+            "quality": sources[0]["quality"] if sources else None,
+            "sources": sources,
+        }
+        cache.set(cache_key, transformed, ttl=300)
+        return success(transformed)
     except Exception as e:
         return err_response(str(e), 500)
 
